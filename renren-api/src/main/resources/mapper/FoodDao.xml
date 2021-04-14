@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.dao.FoodDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.entity.FoodEntity" id="foodMap">
+        <result property="userId" column="user_id"/>
+        <result property="nameFood" column="name_food"/>
+        <result property="contentFood" column="content_food"/>
+        <result property="urlFood" column="url_food"/>
+        <result property="timeFood" column="time_food"/>
+        <result property="extends1" column="extends1"/>
+        <result property="extends2" column="extends2"/>
+        <result property="foodId" column="food_id"/>
+    </resultMap>
+
+
+</mapper>
